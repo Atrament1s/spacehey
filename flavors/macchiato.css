@@ -1,0 +1,146 @@
+<style>
+:root {
+  --ctpRosewater: #f4dbd6;
+  --ctpFlamingo: #f0c6c6;
+  --ctpPink: #f5bde6;
+  --ctpMauve: #c6a0f6;
+  --ctpRed: #ed8796;
+  --ctpMaroon: #ee99a0;
+  --ctpPeach: #f5a97f;
+  --ctpYellow: #eed49f;
+  --ctpGreen: #a6da95;
+  --ctpTeal: #8bd5ca;
+  --ctpSky: #91d7e3;
+  --ctpSapphire: #7dc4e4;
+  --ctpBlue: #8aadf4;
+  --ctpLavendar: #b7bdf8;
+  --ctpText: #cad3f5;
+  --ctpSubtext1: #b8c0e0;
+  --ctpSubtext0: #a5adcb;
+  --ctpOverlay2: #939ab7;
+  --ctpOverlay1: #8087a2;
+  --ctpOverlay0: #6e738d;
+  --ctpSurace2: #5b6078;
+  --ctpSurface1: #494d64;
+  --ctpSurface0: #363a4f;
+  --ctpBase: #24273a;
+  --ctpMantle: #1e2030;
+  --ctpCrust: #181926;
+  --accent: var(--ctpMauve);
+  --accent2: var(--ctpPink);
+}
+
+body {
+  background-color: var(--ctpMantle);
+}
+
+main {
+  background-color: var(--ctpCrust);
+}
+
+//h1, h2, h3, h4, h5, h6, p {
+//  color: var(--ctpText);
+//}
+
+.profile .blurbs .section h4 {
+  color: var(--ctpRed);
+}
+
+.heading, .more {
+  background-color: var(--accent) !important;
+  color: var(--ctpBase) !important;
+}
+
+.online {
+  color: var(--ctpGreen);
+}
+
+a {
+  color: var(--ctpBlue);
+}
+
+.col {
+  color: var(--ctpText);
+}
+
+.friends-grid .person p {
+  color: var(--accent) !important;
+}
+
+.details-table td:first-child {
+  background-color: var(--ctpBase) !important;
+  color: var(--accent);
+}
+
+.details-table td {
+  background-color: var(--ctpSurface0) !important;
+  color: var(--accent2);
+}
+
+.comments-table tbody tr td p {
+  color: var(--ctpBase);
+}
+
+.comments-table td:first-child {
+  background: var(--accent);
+}
+
+.comments-table td {
+  background: var(--accent2);
+}
+
+.comments-table a {
+  color: var(--ctpBase);
+  text-decoration-line: underline;
+}
+
+.comments-table {
+  border: none;
+}
+
+.comment-replies {
+  border: 2px solid var(--ctpBase);
+  border-radius: 5px;
+}
+
+nav .links {
+  background-color: var(--accent2);
+}
+
+nav .links a {
+  background-color: var(--accent2);
+  color: var(--ctpSurface0);
+}
+
+nav .top {
+  background-color: var(--accent);
+  color: var(--ctpBase);
+}
+
+footer {
+  background-color: var(--ctpMantle)
+}
+
+.profile .url-info p {
+  color: var(--accent2);
+}
+
+.profile .url-info p b {
+  color: var(--accent);
+}
+
+.logout-btn {
+  color: var(--ctpRed);
+}
+
+.logout-form {
+  background-color: var(--ctpBase);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+nav .top .center form {
+  padding: 5px;
+}
+
+</style>

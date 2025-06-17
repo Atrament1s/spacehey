@@ -39,6 +39,8 @@
 1. Download your flavor of choice from <a href="/flavors/">the repository</a>.
 2. Go to <a href="https://spacehey.com/edit">https://spacehey.com/edit</a>.
 3. Paste the contents of the css file you chose into the text box below <b>About me:</b>.
+4. (Optional) Change <code>--accent</code> and <code>-accent2</code>.
+5. Save changes.
 
 ## 💝 Thanks to
 
